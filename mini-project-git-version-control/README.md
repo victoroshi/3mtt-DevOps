@@ -4,7 +4,7 @@ Git is a version control system that helps us manage our code efficiently. It co
 **To show how verson control system work, I have demonstrated it by creating some files with index.html which holds the home page content**
 
 I have created a repository with the name mimi-project-git-version-control and I have clone it to my local machine using the command *git clone https://github.com/victoroshi/3mtt-DevOps.git* as sown in the screenshot below
-![Git batch](Gitbash.png)
+![Git batch](git-clone.PNG)
 
  I created 3 new files inside the folder named mini-project-git-version-control as described below:
 1.  index.html → Main HTML file
