@@ -3,7 +3,7 @@ Git is a version control system that helps us manage our code efficiently. It co
 
 **To show how verson control system work, I have demonstrated it by creating some files with index.html which holds the home page content**
 
-I have created a repository with the name mimi-project-git-version-control and I have cloned it to my local machine using the command *git clone https://github.com/victoroshi/3mtt-DevOps.git* as sown in the screenshot below
+I have created a repository with the name mimi-project-git-version-control and I have clone it to my local machine using the command *git clone https://github.com/victoroshi/3mtt-DevOps.git* as sown in the screenshot below
 ![Git Clone](git-clone.PNG)
 
  I created 3 new files inside the folder named mini-project-git-version-control as described below:
@@ -19,7 +19,6 @@ Add Files to Staging Area ,before committing changes, we must add them to the st
 ### Create Initial Commit 
 A commit saves all staged changes in the Git history.
 
-
 *git commit -m "adding index.html, style.css and updating README.md"*
 
 ## Merging update-navigation Branch into Main branch.
@@ -32,18 +31,13 @@ Rebase (git rebase update-navigation) : Moves commits from update-navigation on 
 
 also decribed in the following screenshot
 
-![Git batch](git-upstream.PNG)
-=======
-*git commit -m "adding index.html, style.css and updating README.md"* and **git push** to upload local repository content to a remote repository as shoen in the picture below
+![Git Upstream](git-upstream.PNG)
 
-![Git add, commit and pusg](git-clone.PNG)
+### To create teh second branch, we need to pull the updated to our local reporitory by following these commands
+git checkout main
+git pull origin main
 
-### Create and Switch to a New Branch.
-Branching allows working on a new feature without affecting the main code.
 
-To demonstrate how Git version contro work, I will create **two branches** using the following command
+Next step is to add the *add-contact-info* by typing the following command
 
-*git checkout -b update-navigation* as shown below
-
-![Git add, commit and pusg](switch-branch.PNG)
-
+*git checkout -b add-contact-info*
