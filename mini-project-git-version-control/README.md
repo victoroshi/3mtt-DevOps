@@ -4,7 +4,7 @@ Git is a version control system that helps us manage our code efficiently. It co
 ## My GitHub Dashboard
 ![Victoroshi GitHub dashboard](github-dashboard.PNG)
 
-**To show how verson control system work, I have demonstrated it by creating some files with index.html which holds the home page content**
+**To show how version control system work, I have demonstrated it by creating some files with index.html which holds the home page content**
 
 I have created a repository with the name mimi-project-git-version-control and I have clone it to my local machine using the command *git clone https://github.com/victoroshi/3mtt-DevOps.git* as sown in the screenshot below
 ![Git Clone](git-clone.PNG)
