@@ -28,5 +28,8 @@ Branching allows working on a new feature without affecting the main code.
 
 To demonstrate how Git version contro work, I will create **two branches** using the following command
 
-*git checkout -b navigation* as shown 
+*git checkout -b update-navigation* as shown below
+
+![Git add, commit and pusg](switch-branch.PNG)
+
 
