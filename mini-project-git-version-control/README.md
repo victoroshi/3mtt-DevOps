@@ -18,4 +18,5 @@ Add Files to Staging Area ,before committing changes, we must add them to the st
 
 ### Create Initial Commit 
 A commit saves all staged changes in the Git history.
+
 *git commit -m "adding index.html, style.css and updating README.md"*
