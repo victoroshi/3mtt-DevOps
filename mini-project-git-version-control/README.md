@@ -19,6 +19,21 @@ Add Files to Staging Area ,before committing changes, we must add them to the st
 ### Create Initial Commit 
 A commit saves all staged changes in the Git history.
 
+
+*git commit -m "adding index.html, style.css and updating README.md"*
+
+## Merging update-navigation Branch into Main branch.
+Merge is used to combine the changes from one branch into the another. Creates a merge commit, recording the history of both branches.
+
+Rebase (git rebase update-navigation) : Moves commits from update-navigation on top of main. Does not create a merge commit instead, it rewrites commit history.
+
+### To push the current branch and set the remote as upstream, use this command
+*git push --set-upstream origin update-navigation*
+
+also decribed in the following screenshot
+
+![Git batch](git-upstream.PNG)
+=======
 *git commit -m "adding index.html, style.css and updating README.md"* and **git push** to upload local repository content to a remote repository as shoen in the picture below
 
 ![Git add, commit and pusg](git-clone.PNG)
@@ -31,5 +46,4 @@ To demonstrate how Git version contro work, I will create **two branches** using
 *git checkout -b update-navigation* as shown below
 
 ![Git add, commit and pusg](switch-branch.PNG)
-
 
