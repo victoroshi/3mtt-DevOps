@@ -36,7 +36,7 @@ also decribed in the following screenshot
 
 ![Git Upstream](git-upstream.PNG)
 
-### To create teh second branch, we need to pull the updated to our local reporitory by following these commands
+### To create the second branch, we need to pull the updated to our local reporitory by following these commands
 git checkout main
 
 git pull origin main
