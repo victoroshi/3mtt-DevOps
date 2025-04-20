@@ -35,6 +35,7 @@ also decribed in the following screenshot
 
 ### To create teh second branch, we need to pull the updated to our local reporitory by following these commands
 git checkout main
+
 git pull origin main
 
 
