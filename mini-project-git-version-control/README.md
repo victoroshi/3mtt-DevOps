@@ -1,4 +1,4 @@
-#Git Version Control
+# Git Version Control
 Git is a version control system that helps us manage our code efficiently. It consists of different areas, including the working directory and the staging area. Any changes to the code, such as editing, testing, and packaging, can be tracked using Git
 
 **To show how verson control system work, I have demonstrated it by creating some files with index.html which holds the home page content**
