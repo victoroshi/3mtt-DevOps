@@ -41,3 +41,5 @@ git pull origin main
 Next step is to add the *add-contact-info* by typing the following command
 
 *git checkout -b add-contact-info*
+
+Updated index.html (with Contact Info Section)
