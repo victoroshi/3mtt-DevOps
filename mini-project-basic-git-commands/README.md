@@ -61,7 +61,7 @@ confirmed that the changes has been staged for committ
 
 This time arround, the file name will appear in green color meaning the file(s) has been successfuly staged as shown in the following diagram
 
-![Git Status](git-status.PNG)
+![Git Status](img/git-status.PNG)
 
 To commit the changes, the following command is used
 
@@ -74,13 +74,18 @@ To put the main branch to GitHub, use this
 
 Add Files to Staging Area ,before committing changes, we must add them to the staging area, where Git keeps track of them by using the following command
 
-*git add .*
+`git add .`
 
 
 ### Create Initial Commit 
 A commit saves all staged changes in the Git history.
 
-*git commit -m "adding index.html, style.css and updating README.md"*
+`git commit -m "adding index.html, style.css and updating README.md"`
+
+### Push the current files that have been staged to GitHub
+
+![Git Push](img/git-push.PNG)
+
 
 ## Merging update-navigation Branch into Main branch.
 Merge is used to combine the changes from one branch into the another. Creates a merge commit, recording the history of both branches.
