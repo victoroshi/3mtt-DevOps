@@ -14,6 +14,18 @@ If your installation is successful, it will have the following look after launch
 
 ![Git Version from CLI](img/git-version-from-CLI.PNG)
 
+### Configuration of User credentials in Git
+Set Global username, type the follwoing command
+
+`git config --global user.name "Victor Osibajo"`
+
+Set Global Email Address
+`git config --global user.email "vicoma@gmail.com"`
+
+Verify the Configuration
+
+`git config --global --list`
+
 ## My GitHub Dashboard
 ![Victoroshi GitHub dashboard](github-dashboard.PNG)
 
@@ -80,7 +92,7 @@ Add Files to Staging Area ,before committing changes, we must add them to the st
 ### Create Initial Commit 
 A commit saves all staged changes in the Git history.
 
-`git commit -m "adding index.html, style.css and updating README.md"`
+`git commit -m "adding navigation to index.html"`
 
 ### Push the current files that have been staged to GitHub
 
@@ -112,7 +124,23 @@ git pull origin main
 
 Next step is to add the *add-contact-info* by typing the following command
 
-*git checkout -b add-contact-info*
+`git checkout -b add-contact-info`
+
+This will create a branch where Jerry will make his changes keeping them separate from the main branch until they are ready to be merged. 
+
+From this new branch, I will open the index.html file and add the contact information. After adding the contact info, I will enetr the following commands to stimulate Jerry's task
+
+`git add index.html`
+
+The command above stages the changes Jerry made to the index.html file prepaing them for commit. 
+
+To commit the changes, I will perfom the following commands
+
+`git commit -m "Add contact information"`  which saves Jerry's changes in the branch history with a message with what was done
+
+The next thing is to push what was done by Jerry to the GitHub
+
+`git push origin add-contact-info`
 
 Updated index.html (with Contact Info Section)
 
