@@ -1,7 +1,10 @@
-#Git Version Control
+# Git Version Control
 Git is a version control system that helps us manage our code efficiently. It consists of different areas, including the working directory and the staging area. Any changes to the code, such as editing, testing, and packaging, can be tracked using Git
 
-**To show how verson control system work, I have demonstrated it by creating some files with index.html which holds the home page content**
+## My GitHub Dashboard
+![Victoroshi GitHub dashboard](github-dashboard.PNG)
+
+**To show how version control system work, I have demonstrated it by creating some files with index.html which holds the home page content**
 
 I have created a repository with the name mimi-project-git-version-control and I have clone it to my local machine using the command *git clone https://github.com/victoroshi/3mtt-DevOps.git* as sown in the screenshot below
 ![Git Clone](git-clone.PNG)
@@ -33,8 +36,9 @@ also decribed in the following screenshot
 
 ![Git Upstream](git-upstream.PNG)
 
-### To create teh second branch, we need to pull the updated to our local reporitory by following these commands
+### To create the second branch, we need to pull the updated to our local reporitory by following these commands
 git checkout main
+
 git pull origin main
 
 
@@ -43,3 +47,8 @@ Next step is to add the *add-contact-info* by typing the following command
 *git checkout -b add-contact-info*
 
 Updated index.html (with Contact Info Section)
+
+
+
+This URL is where I hosted all the file in the repository confirming that the repository contain an index.html file
+![Root of Index.html file](index-file-at-root.PNG)

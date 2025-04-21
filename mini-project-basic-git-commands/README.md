@@ -143,7 +143,9 @@ The next thing is to push what was done by Jerry to the GitHub
 `git push origin add-contact-info`
 
 Updated index.html (with Contact Info Section)
+
 Since the update has been done, we need to merge this with the main
+
 
 
 This URL is where I hosted all the file in the repository confirming that the repository contain an index.html file
