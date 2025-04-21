@@ -86,6 +86,11 @@ A commit saves all staged changes in the Git history.
 
 ![Git Push](img/git-push.PNG)
 
+### Creating new branch called update-navigation
+
+`git checkout -b update-navigation`
+
+![Update Navigation](img/update-navigation.PNG)
 
 ## Merging update-navigation Branch into Main branch.
 Merge is used to combine the changes from one branch into the another. Creates a merge commit, recording the history of both branches.
