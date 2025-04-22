@@ -17,8 +17,9 @@ b.  Click on the branch dropdown menu near the top left corner of the file list 
 
 ## Create New Pull request
 
+The dialog box below shows how to delete the existing branches and create new one
 
-
+![Creating New Branch](img/delete-and-create.PNG)
 
 
 ## Windows Installation:
